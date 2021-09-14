@@ -34,7 +34,7 @@ public class Engine {
     }
 
     public boolean stopEngine(boolean engineIsStarted) {
-        if (engineIsStarted) System.out.println("Engine is stopped");
+        if (!engineIsStarted) System.out.println("Engine is stopped");
         return engineIsStarted;
     }
 }
